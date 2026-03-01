@@ -5,7 +5,7 @@
 # Curse
 
 **Clipboard Manager for Windows**  
-Store copy history, manage favorites, and render Markdown in a dark interface
+Manage your clipboard comfortably. The app saves a complete copy history, allows you to add items to favorites, and supports displaying items in Markdown format. 
 
 ![Electron](https://img.shields.io/badge/Electron-28-47848F?style=flat-square&logo=electron&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
