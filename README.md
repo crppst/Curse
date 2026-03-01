@@ -4,7 +4,7 @@
 
 # Curse
 
-**Clipboard Manager for Windows x64**  
+**Clipboard Manager for Windows 10 x64**  
 Manage your clipboard comfortably. The app saves a complete copy history, allows you to add items to favorites, and supports displaying items in Markdown format. 
 
 ![Electron](https://img.shields.io/badge/Electron-28-47848F?style=flat-square&logo=electron&logoColor=white)
