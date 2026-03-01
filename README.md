@@ -15,6 +15,19 @@ Manage your clipboard comfortably. The app saves a complete copy history, allows
 
 ---
 
+## Screenshots
+
+<div align="center">
+  <img src="screenshots/main-text.png" width="400" alt="Main window with clipboard history">
+  <img src="screenshots/main-image.png" width="400" alt="Main window with clipboard history">
+  <img src="screenshots/favorite-text.png" width="400" alt="Favorites view">
+  <img src="screenshots/favorite-image.png" width="400" alt="Favorites view">
+  <br>
+  <img src="screenshots/settings.png" width="400" alt="Markdown rendering">
+</div>
+
+---
+
 ## Features
 
 **Clipboard History** — automatically stores up to 100 recent entries with quick access  
