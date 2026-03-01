@@ -41,7 +41,7 @@ Manage your clipboard comfortably. The app saves a complete copy history, allows
 ### Run from source
 
 ```bash
-git clone https://github.com/your-username/curse.git
-cd curse
+git clone https://github.com/crppst/Curse.git
+cd Curse
 npm install
 npm start
