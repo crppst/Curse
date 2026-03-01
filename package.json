@@ -1,0 +1,52 @@
+{
+  "name": "curse",
+  "productName": "Curse",
+  "version": "1.0.0",
+  "description": "Clipboard history manager for Windows",
+  "author": {
+    "name": "Thousand Cursed Enemies"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "build:portable": "electron-builder --win --portable"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.thousandcursedenemies.curse",
+    "productName": "Curse",
+    "copyright": "© Thousand Cursed Enemies",
+    "icon": "icon.ico",
+    "files": [
+      "main.js",
+      "index.html",
+      "icon.ico",
+      "icon.png",
+      "src/**/*"
+    ],
+    "win": {
+      "target": [{ "target": "nsis", "arch": ["x64"] }],
+      "icon": "icon.ico",
+      "publisherName": "Thousand Cursed Enemies",
+      "legalTrademarks": "Thousand Cursed Enemies",
+      "executableName": "Curse"
+    },
+    "portable": {
+      "artifactName": "Curse-portable.exe"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "installerHeaderIcon": "icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Curse"
+    }
+  }
+}
