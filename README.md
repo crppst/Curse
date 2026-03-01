@@ -29,8 +29,6 @@ Manage your clipboard comfortably. The app saves a complete copy history, allows
 
 **Background Mode** — starts in system tray without opening the window, minimizes to tray on close  
 
-**Interface** — minimal dark theme design  
-
 ---
 
 ## Installation
